@@ -1,7 +1,7 @@
 from utils import load_library_items, checkout_items, count_items, find_by_title
 
 def main():
-    items = load_library_items("library.csv")
+    items = load_library_items("library.csv") #!agregar la ruta al archivo del library o explota!!!!
 
     print("=== ÍTEMS CARGADOS ===")
     for i, item in enumerate(items, start=1):
